@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+  <center><h1 >欢迎来到_图片方向识别测试系统_  __1.2v  </h1>
+    <link rel="stylesheet" href="static/blog/css/index_work.css" />
+
+   <form action="predict.html" method="post" enctype="multipart/form-data">{% csrf_token %}
+       <p>
+           <input id="id_image" type="file" class="" name="image"> <!-- 这一行应该是form.image，省事写的 -->
+
+       </p>
+       <input type="submit" value="开始测试">
+
+   </form>
+      </center>
+</body>
+</html>
