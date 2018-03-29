@@ -4,5 +4,6 @@ from tests import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',views.index),
-    url(r'predict.html',views.predict)
- ]
+    url(r'predict.html',views.predict),
+    url()
+ ];
